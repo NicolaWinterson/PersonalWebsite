@@ -1,9 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const Portfolio = () => {
     return (
-        <h1 className="portfolio_heading">I'm an almost functional component!</h1>
+        <div>
+            <Link to="/">Back</Link>
+            <h1 className="portfolio_heading">I'm the portfolio component!</h1>    
+        </div>
     )
 }
 

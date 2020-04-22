@@ -1,6 +1,7 @@
 import React from 'react';
 import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
+import Home from "./components/Home"
 
 import {
   BrowserRouter as Router,
@@ -12,6 +13,27 @@ import {
 import './App.css';
 
 export default function App() {
+  return (
+    <Router>
+      <Switch>
+        <Route path="/cv">
+          <Resume />
+        </Route>
+        <Route path="/portfolio">
+          <Portfolio />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+    </Switch>
+{/*       <Route path="/:cv" component={Resume} />
+      <Route exact path="/:portfolio" component={Portfolio} />
+      <Route path="/" component={Home} /> */}
+    </Router>
+  );
+}
+
+/* export default function App() {
   return (
     <Router>
       <div>
@@ -30,7 +52,7 @@ export default function App() {
         </nav>
 
         {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
+            renders the first one that matches the current URL.
         <Switch>
           <Route path="/cv">
             <Resume />
@@ -45,11 +67,11 @@ export default function App() {
       </div>
     </Router>
   );
-}
+} */
 
-function Home() {
+/* function Home() {
   return <h2>Hej and welcome!</h2>;
-}
+} */
 
 /* function Resume() {
   return <h2>This will soon be a functional component</h2>;
