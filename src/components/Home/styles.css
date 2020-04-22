@@ -1,9 +1,6 @@
 .home_background {
     background: url(/public/home-background.jpg) center center;
     background-size: cover;
-    font-size: 1rem;
-    margin: 2%;
-    min-height: 100vh;
 }
 
 .home_heading {
