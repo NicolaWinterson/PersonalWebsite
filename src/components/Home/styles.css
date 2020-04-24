@@ -1,10 +1,57 @@
 .home_background {
-    background: url(/public/home-background.jpg) center center;
-    background-size: cover;
+    background-color: #cccccc;
+    padding: 3vh;
 }
 
 .home_heading {
-    font-size: 44px;
+    font-size: 10vh;
     text-align: center;
     color: violet;
 }
+
+.home_navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* width: 100%; */
+    background-color: teal;
+    /* padding: 2vh;   */
+}
+
+.home_navbar li {
+    list-style: none;
+    display: inline-block;
+    width: 10vw;
+    /* width: calc(90% / 3); */
+    height: 10vh;
+    text-align: right;
+    padding-right: 1vw;
+    font-size: 3vh;
+    background-color: tomato;
+    border: 1px solid black;
+  }
+
+  @media screen and (max-width: 800px) {
+    .home_navbar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        /* width: 100%; */
+        background-color: teal;
+        /* padding: 2vh;   */
+    }
+    
+    .home_navbar li {
+        list-style: none;
+        display: inline-block;
+        width: calc(90% / 3);
+        height: 10vh;
+        text-align: right;
+        padding-right: 1vw;
+        font-size: 3vh;
+        background-color: tomato;
+        border: 1px solid black;
+      }
+  }

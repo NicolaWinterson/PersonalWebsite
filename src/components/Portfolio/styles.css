@@ -1,3 +1,12 @@
+.portfolio__background {
+    background-color: #cccccc;
+    padding: 2vh;
+  }
+
+.portfolio_nav {
+  float: right;
+}
+
 .portfolio_heading {
     font-size: 68px;
     text-align: center;

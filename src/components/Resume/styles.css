@@ -1,236 +1,242 @@
-.resume_background {
-    background: rgb(34,193,195);
-    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    height: 100vh;
-}
-.resume_heading {
-    font-size: 60px;
-}
-
-/* .App {
-  font-family: sans-serif;
-  text-align: center;
-} */
-
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap");
+.resume__banner {
+  width: 100vw;
+  height: 10vh;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+} 
 
-.container {
-  background-color: rgb(255, 255, 255);
-  font-family: "Open Sans Condensed", sans-serif;
-  width: 95vw;
-  /* position: absolute; */
-  border: solid black 2px;
-  display: flex;
+.resume__nav {
+  float: right;
+  padding-right: 3vw;
 }
 
-.container__left {
-  padding: 5vw 0vw 0vw 5vw;
-  width: 30vw;
+.resume_heading {
+  font-size: 60px;
+}
+
+.resume__container {
+background-color: rgb(255, 255, 255);
+font-family: "Open Sans Condensed", sans-serif;
+margin: 2vw;
+/* position: absolute; */
+border: solid black 2px;
+display: flex;
+}
+
+.resume__container--left {
+padding: 5vw 0vw 0vw 5vw;
+width: 30vw;
 }
 
 .container__right {
-  width: 60vw;
-  position: relative;
-  padding-right: 5vw;
+width: 60vw;
+position: relative;
+padding-right: 5vw;
 }
 
 /* .container__right:after {
-  content: "";
-  position: absolute;
-  display: block;
-  background-color: rgb(107, 48, 53);
-  height: 100%;
-  width: 1px;
-  right: 0;
-  top: 0;
+content: "";
+position: absolute;
+display: block;
+background-color: rgb(107, 48, 53);
+height: 100%;
+width: 1px;
+right: 0;
+top: 0;
 } */
 
-.profile-image {
-  background-repeat: no-repeat;
-  background-position: 50%;
-  border-radius: 50%;
-  width: 20vmin;
-  height: 20vmin;
-  border: solid black 2px;
+.resume__profile-image {
+background-repeat: no-repeat;
+background-position: 50%;
+border-radius: 50%;
+width: 40vh;
+height: 40vh;
+border: solid black 2px;
 }
 
 .container a {
-  text-decoration: none;
-  color: rgb(0, 0, 0);
+text-decoration: none;
+color: rgb(0, 0, 0);
 }
 
 .container a:hover {
-  text-decoration: underline;
-  color: rgba(0, 0, 0, 0.8);
-  cursor: pointer;
+text-decoration: underline;
+color: rgba(0, 0, 0, 0.8);
+cursor: pointer;
 }
 
 .social-media-icons {
-  height: 3vmax;
-  width: 3vmax;
+height: 3vmax;
+width: 3vmax;
 }
 
-.contact-info,
+.resume__contact-info,
 .social-media-links {
-  font-style: normal;
-  font-size: 1.8vmax;
-  margin-bottom: 3vh;
+font-style: normal;
+font-size: 1.8vmax;
+margin-bottom: 3vh;
 }
 
 .social-media-links p {
-  margin-top: 0px;
+margin-top: 0px;
 }
 
 .contact-info--header {
-  font-size: 5vmax;
-  text-transform: uppercase;
-  overflow: hidden;
+font-size: 5vmax;
+text-transform: uppercase;
+overflow: hidden;
 }
 
 .contact-info__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2vw;
-  text-align: justify;
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 2vw;
+text-align: justify;
 }
 
 .contact-info__grid dd {
-  margin: 0;
-  padding: 0.3vh 0vh;
+margin: 0;
+padding: 0.3vh 0vh;
 }
 
 .contact-info__inline dd {
-  margin: 0;
-  padding: 0.3vh 0vh;
+margin: 0;
+padding: 0.3vh 0vh;
 }
 
 .skill_bar {
-  display: flex;
-  flex-flow: column wrap;
+display: flex;
+flex-flow: column wrap;
 }
 
 .skill_level .full,
 .skill_level .not_full {
-  display: inline-block;
-  height: 1.4vmax;
-  width: 1.4vmax;
-  margin-right: 2px;
-  border: 1px solid black;
-  border-radius: 50%;
+display: inline-block;
+height: 1.4vmax;
+width: 1.4vmax;
+margin-right: 2px;
+border: 1px solid black;
+border-radius: 50%;
 }
 
 .skill_level .full {
-  background: black;
+background: black;
 }
 
 .skill_level .not_full {
 }
 
 .resume-item ul {
-  list-style-type: none;
+list-style-type: none;
 }
 
 .resume-item__title {
-  text-transform: uppercase;
-  font-family: "Open Sans Condensed", sans-serif;
-  font-size: 4vmax;
-  font-weight: 150;
-  margin-bottom: 0;
-  /* background: lime; */
+text-transform: uppercase;
+font-family: "Open Sans Condensed", sans-serif;
+font-size: 4vmax;
+font-weight: 150;
+margin-bottom: 0;
+/* background: lime; */
 }
 
 .resume-item__subheading,
 .resume-item__content {
-  font-size: 1.8vmax;
-  font-weight: 100;
-  margin-bottom: 0;
+font-size: 1.8vmax;
+font-weight: 100;
+margin-bottom: 0;
 }
 
 .resume-item__content p {
-  margin: 0px;
+margin: 0px;
 }
 
 .achievements__subheading {
-  font-size: 1.8vmax;
-  font-weight: bold;
-  margin-bottom: 0;
+font-size: 1.8vmax;
+font-weight: bold;
+margin-bottom: 0;
 }
 
 .resume-item {
-  /* border-bottom: 1px solid rgb(255, 255, 255);*/
-  border-left: solid 2px rgb(63, 66, 113);
-  padding: 0px;
-  margin: 0px;
-  position: relative;
-  /* background: fuchsia; */
+/* border-bottom: 1px solid rgb(255, 255, 255);*/
+border-left: solid 2px rgb(63, 66, 113);
+padding: 0px;
+margin: 0px;
+position: relative;
+/* background: fuchsia; */
 }
 
 .resume-item:before {
-  content: "";
-  display: block;
-  width: 2vh;
-  height: 2vh;
-  border-radius: 50%;
-  background: rgb(63, 66, 113);
-  position: absolute;
-  margin-left: -0.5vw;
-  margin-top: 18px;
+content: "";
+display: block;
+width: 2vh;
+height: 2vh;
+border-radius: 50%;
+background: rgb(63, 66, 113);
+position: absolute;
+margin-left: -0.5vw;
+margin-top: 18px;
 }
 
 .time-range-block {
-  display: flex;
-  margin-bottom: 20px;
+display: flex;
+margin-bottom: 20px;
 }
 
 .time-range-block__col1 {
-  display: block;
-  width: 20%;
-  overflow: hidden;
-  /* background: blue; */
+display: block;
+width: 20%;
+overflow: hidden;
+/* background: blue; */
 }
 
 .time-range-block__col2 {
-  flex: 1;
-  /* background: yellow; */
+flex: 1;
+/* background: yellow; */
 }
 
 .time-range-block__title {
-  margin: 0;
-  text-transform: capitalize;
+margin: 0;
+text-transform: capitalize;
 }
 
 .time-range-block__content * {
-  margin: 0;
-  color: black;
+margin: 0;
+color: black;
 }
 
 .time-range-block__time {
-  font-weight: bold;
+font-weight: bold;
 }
 
 .display-skills-block {
-  display: flex;
-  flex-flow: column wrap;
+display: flex;
+flex-flow: column wrap;
 }
 
 .skills,
 .achievements__display {
-  display: flex;
-  flex-wrap: wrap;
+display: flex;
+flex-wrap: wrap;
 }
 
 .skill_bar,
 .achievements__display--flex {
-  flex-basis: 45%;
-  display: inline;
-  /* margin-right: 20px; */
+flex-basis: 45%;
+display: inline;
+/* margin-right: 20px; */
 }
 
 .skill_name {
-  /* background: yellow; */
+/* background: yellow; */
 }
 
 .skill_level {
-  float: right;
-  margin-right: 20px;
+float: right;
+margin-right: 20px;
+}
+
+.resume__background {
+  background-color: #cccccc;
+  padding: 2vh;
 }

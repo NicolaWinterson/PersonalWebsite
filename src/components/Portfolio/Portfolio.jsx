@@ -4,8 +4,8 @@ import "./styles.css";
 
 const Portfolio = () => {
     return (
-        <div>
-            <Link to="/">Back</Link>
+        <div className="portfolio__background">
+            <Link className="portfolio_nav" to="/">Back</Link>
             <h1 className="portfolio_heading">I'm the portfolio component!</h1>    
         </div>
     )

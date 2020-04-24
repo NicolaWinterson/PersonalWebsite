@@ -16,14 +16,16 @@ import SocialMediaInfo from "./SocialMediaInfo";
 
 const Resume = () => {
   return (
-    <div className="resume_background">
-    <Link to="/">Back</Link>
-    <div className="container">
+    <div className="resume__background">
+    <header className="resume__banner">
+      <Link  className="resume__nav" to="/"><img src="/public/arrow_back-black.svg" alt="arrow back"/></Link>
+    </header>
+    <div className="resume__container">
       <header />
-      <aside className="container__left">
-        <section className="contact-info">
+      <aside className="resume__container--left">
+        <section className="resume__contact-info">
           <img
-            className="profile-image"
+            className="resume__profile-image"
             src="https://pixiepunkpix.files.wordpress.com/2014/05/tumblr_static_black-and-white-camera-cute-photography-favim-com-273178.jpg"
             alt="Fake Profile"
           />

@@ -8,7 +8,7 @@ const Home = () => {
     return (
         <div className="home_background">
             <nav>
-                <ul>
+                <ul className="home_navbar">
                     <li>
                         <Link to="/">Home</Link>
                     </li>
