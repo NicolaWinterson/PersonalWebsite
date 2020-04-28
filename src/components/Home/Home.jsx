@@ -1,4 +1,5 @@
 import React from "react";
+import SentimentSatisfiedAltIcon from '@material-ui/icons/SentimentSatisfiedAlt';
 import {
     Link
   } from "react-router-dom";
@@ -9,14 +10,12 @@ const Home = () => {
         <div className="home_background">
             <nav>
                 <ul className="home_navbar">
-                    <li>
-                        <Link to="/">Home</Link>
+                    <li><SentimentSatisfiedAltIcon />NLW</li>
+                    <li className="home_navbar--push">
+                        <Link to="/cv">CV</Link>
                     </li>
                     <li>
-                        <Link to="/cv">C.V.</Link>
-                    </li>
-                    <li>
-                        <Link to="/portfolio">Portfolio</Link>
+                        <Link to="/portfolio">PORTFOLIO</Link>
                     </li>
                 </ul>
             </nav>

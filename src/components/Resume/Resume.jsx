@@ -20,7 +20,7 @@ const Resume = () => {
   return (
     <div>
       <header className="resume__banner">
-        <Link className="resume__nav" to="/"><ArrowBackIosIcon /></Link>
+        <Link className="resume__nav" to="/"><ArrowBackIosIcon />Home</Link>
       </header>
       <div className="resume__background">
         <div className="resume__container">

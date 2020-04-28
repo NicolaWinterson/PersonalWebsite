@@ -8,7 +8,7 @@
 
 .resume__banner:hover {
   width: 100vw;
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(0, 0, 0, 0.9));
+  background-image: linear-gradient(to right, #768e83, #22372d);
 }
 
 .resume__nav {
@@ -31,7 +31,7 @@ background-color: rgb(255, 255, 255);
 font-family: "Open Sans Condensed", sans-serif;
 margin: 2vw;
 /* position: absolute; */
-border: solid black 2px;
+border: 2px solid #22372d;
 display: flex;
 }
 
@@ -169,7 +169,7 @@ margin-bottom: 0;
 
 .resume-item {
 /* border-bottom: 1px solid rgb(255, 255, 255);*/
-border-left: solid 2px rgb(63, 66, 113);
+border-left: solid 2px #22372d;
 padding: 0px;
 margin: 0px;
 position: relative;
@@ -247,6 +247,6 @@ margin-right: 20px;
 }
 
 .resume__background {
-  background-color: #cccccc;
+  background-color: #f0e7de;
   padding: 2vh;
 }
