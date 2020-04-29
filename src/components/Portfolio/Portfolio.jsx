@@ -5,58 +5,23 @@ import { yellow } from "@material-ui/core/colors";
 
 const Portfolio = () => {
     return (
-        <div style={styles.container}>
-            <div style={styles.top}>
-                <Link to="/">Back</Link>
-                <h1>I'm the portfolio component!</h1>
-            </div>
-            <div style={styles.center}>center</div>
-            <div style={styles.bottom}>bottom
-                <div style={styles.bottomItem}>1
-                    <div style={styles.bottomItemInner}>bt</div>
-                </div>
-                <div style={styles.bottomItem}>2
-                    <div style={styles.bottomItemInner}>bt</div>
-                </div>
-                <div style={styles.bottomItem}>3
-                    <div style={styles.bottomItemInner}>bt</div>
-                </div>
-                <div style={styles.bottomItem}>4
-                    <div style={styles.bottomItemInner}>bt</div>
-                </div>
+        <div className="portfolio__container">
+            <nav className="portfolio__container--top">
+                <Link className="portfolio__nav" to="/">Back</Link>  
+            </nav>
+            <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1></div>
+            <div className="portfolio__container--bottom">bottom
+                <ul className="flexparent">
+                    <li className="flexchild">1</li>
+                    <li className="flexchild">2</li>
+                    <li className="flexchild">3</li>
+                    <li className="flexchild">4</li>
+                    <li className="flexchild">5</li>
+                    <li className="flexchild">6</li>
+                </ul>
             </div>
         </div>
     )
-}
-
-const styles = {
-    container: {
-        flex: 1,
-    },
-    top: {
-        height: '45vh',
-        backgroundColor: 'yellow',
-    },
-    center: {
-        height: '10vh',
-        backgroundColor: 'blue',
-    },
-    bottom: {
-        height: '45vh',
-        backgroundColor: 'pink',
-        flexDirection: 'row',
-        flexWrap: 'wrap',
-        padding: '5',
-    },
-    bottomItem: {
-        width: '50vw',
-        height: '50vh',
-        padding: 5,
-    },
-    bottomItemInner: {
-        flex: 1,
-        backgroundColor: 'black',
-    },
 }
 
 export default Portfolio

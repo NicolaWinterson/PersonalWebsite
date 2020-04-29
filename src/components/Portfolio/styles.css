@@ -1,14 +1,50 @@
-.portfolio__background {
-    background-color: #cccccc;
-    padding: 2vh;
-  }
-
-.portfolio_nav {
-  float: right;
+.portfolio__container {
+  flex: 1;
+  background-color: #fff;
+  padding: 2vh 0vh;
 }
 
-.portfolio_heading {
+.portfolio__container--top {
+  height: 45vh;
+  background-color: #bcb4ab;
+}
+
+.portfolio__container--center {
+  height: 10%;
+  background-color: #be8051;
+}
+
+.portfolio__container--bottom {
+  height: 45%;
+  background-color: #768e83;
+}
+
+.portfolio__nav {
+  float: right;
+  padding-top: 50px;
+  padding-right: 50px;
+}
+
+.portfolio__heading {
     font-size: 68px;
     text-align: center;
     color: blue;
 }
+
+.flexparent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1vw;
+}
+
+.flexchild {
+  list-style-type: none;
+  height: 300px;
+  width: 400px;
+  flex-basis: auto;
+  margin: 2%;
+  background-color:#22372d;
+ }

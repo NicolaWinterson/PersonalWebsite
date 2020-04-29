@@ -14,8 +14,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    /* width: 100%; */
-    /* padding: 2vh;   */
+    padding-right: 3vw;
     border-bottom: 1px solid #95aea3;
 }
 
@@ -27,8 +26,8 @@
     text-align: center;
     padding: 2vw 2vw 0vw 0vw;
     font-size: 3vh;
-    background-color: #be8051;
-    border-bottom: 2px solid #be8051;
+    background-color: #f0e7de;
+    border-bottom: 2px solid #f0e7de;
 }
 
 .home_navbar--push {
@@ -36,7 +35,7 @@
 }
 
 .home_navbar li:hover {
-    background-color: tomato;
+    background-color: #dbc4ad;
 }
 
 .home_navbar li a {
@@ -46,4 +45,5 @@
 
 .home_navbar li a:hover {
     border-bottom: 2px solid #4a6156;
+    transition: 0.2s linear;
 }
