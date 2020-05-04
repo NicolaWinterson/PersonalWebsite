@@ -7,16 +7,19 @@
 .portfolio__container--top {
   height: 45vh;
   background-color: #bcb4ab;
+  margin: 0px;
 }
 
 .portfolio__container--center {
   height: 10%;
   background-color: #be8051;
+  margin: 0px;
 }
 
 .portfolio__container--bottom {
   height: 45%;
   background-color: #768e83;
+  margin: 0px;
 }
 
 .portfolio__nav {
@@ -26,9 +29,9 @@
 }
 
 .portfolio__heading {
-    font-size: 68px;
-    text-align: center;
-    color: blue;
+  font-size: 68px;
+  text-align: center;
+  color: blue;
 }
 
 .flexparent {

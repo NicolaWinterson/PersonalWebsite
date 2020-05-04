@@ -7,7 +7,7 @@ import "./styles.css";
 
 const Home = () => {
     return (
-        <div className="home_background">
+        <div className="home__container">
             <nav>
                 <ul className="home_navbar">
                     <li><SentimentSatisfiedAltIcon />NLW</li>
