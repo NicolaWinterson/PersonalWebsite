@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import Print from '@material-ui/icons/Print';
 
 import "./styles.css";
 
@@ -15,12 +16,14 @@ import {
   socialMediaData
 } from "./PersonalData";
 import SocialMediaInfo from "./SocialMediaInfo";
+import CVpdf from "C:/Users/Nicola/Documents/Website/website-main/src/components/Resume/NicolaWinterson_CV_2020.pdf"
 
 const Resume = () => {
   return (
     <div>
-      <header className="resume__banner">
-        <Link className="resume__nav" to="/"><ArrowBackIosIcon />Home</Link>
+      <header className="resume__banner resume__nav">
+        <a className="resume__nav--item" href={CVpdf} target="_blank"><Print/></a>
+        <Link className="resume__nav--item" to="/"><ArrowBackIosIcon /></Link>
       </header>
       <div className="resume__background">
         <div className="resume__container">
