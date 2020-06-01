@@ -22,7 +22,7 @@ const Resume = () => {
   return (
     <div>
       <header className="resume__banner resume__nav">
-        <a className="resume__nav--item" href={CVpdf} target="_blank"><Print/></a>
+        <a className="resume__nav--item" href={CVpdf} target="_blank"><Print /></a>
         <Link className="resume__nav--item" to="/"><ArrowBackIosIcon /></Link>
       </header>
       <div className="resume__background">
@@ -52,16 +52,6 @@ const Resume = () => {
                 <dd>0707070707</dd>
                 <dt>Email:</dt>
                 <dd>name.surname@gmail.com</dd>
-                <dt>Website</dt>
-                <dd>
-                  <a
-                    href="http://website.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    www.personwebsite.com
-              </a>
-                </dd>
               </dl>
             </section>
             <div>
