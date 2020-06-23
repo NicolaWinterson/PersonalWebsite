@@ -6,7 +6,7 @@
 }
 
 .home_heading {
-    font-size: 68px;
+    font-size: 60px;
     text-align: center;
     color: #4a6156;
 }
@@ -49,10 +49,36 @@
     transition: 0.2s linear;
 }
 
+.home_navbar--mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 800px) {
     .home_heading {
-        font-size: 7vh;
+        font-size: 40px;
         text-align: center;
         color: red;
+    }
+    
+    .home_navbar {
+        display: none;
+    }
+
+    .home_navbar--mobile {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2vh 5vw 3vh 0vw;
+        border-bottom: 1px solid #95aea3;
+        list-style: none;
+        background-color: #f0e7de;
+    }
+
+    .home_navbar--mobile-li {
+        list-style: none;
+        display: inline-block;
+        text-align: center;
+        font-size: 2.5vh;
+        
+        border-bottom: 2px solid #f0e7de;
     }
 }
