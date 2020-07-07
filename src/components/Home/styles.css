@@ -1,6 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .home__container {
     background-color: #ffffff;
-    margin: 0;
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images4/Cool-4k-Desktop-Wallpaper.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
     height: 100vh;
     width: 100vw;
 }
@@ -12,23 +20,22 @@
 }
 
 .home_navbar {
+    background-color: rgba(219, 196, 173, 0.2);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-right: 3vw;
     border-bottom: 1px solid #95aea3;
 }
 
 .home_navbar li {
     list-style: none;
-    display: inline-block;
-    width: 10vw;
-    height: 8vh;
+    width: 12vw;
+    height: 5vh;
     text-align: center;
-    padding: 2vw 2vw 0vw 0vw;
-    font-size: 2.5vh;
-    background-color: #f0e7de;
-    border-bottom: 2px solid #f0e7de;
+    padding: 2.5vw 2vw 0vw;
+    font-size: 2vw;
+    background-color: rgba(240, 231, 222, 0.2);
+    /* border-bottom: 2px solid #f0e7de; */
 }
 
 .home_navbar--push {
@@ -36,7 +43,7 @@
 }
 
 .home_navbar li:hover {
-    background-color: #dbc4ad;
+    background-color: rgba(219, 196, 173, 0.5);
 }
 
 .home_navbar li a {

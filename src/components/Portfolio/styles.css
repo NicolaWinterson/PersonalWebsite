@@ -1,23 +1,28 @@
+* {
+  margin: 0;
+}
+
 .portfolio__container {
   flex: 1;
   background-color: #fff;
-  margin: 0px;
-  padding: 0px;
 }
 
 .portfolio__container--top {
   height: 10vh;
   background-color: #bcb4ab;
+  padding: 1vw;
 }
 
 .portfolio__container--center {
   height: 20%;
   background-color: #be8051;
+  padding: 1vw;
 }
 
 .portfolio__container--bottom {
   height: 60%;
   background-color: #768e83;
+  padding: 1vw;
 }
 
 .portfolio__nav {
