@@ -14,12 +14,11 @@ const Portfolio = () => {
             <div className="portfolio__container--bottom">bottom
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops1" link="https://folketspops.se/" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops2" link="https://folketspops.se/" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops3" link="https://folketspops.se/" />
+                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />
+                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Tic Tac Toe w/ class based components" link="https://codepen.io/nicolawinterson/pen/oNXVvaV" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops4" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops5" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops6" link="https://folketspops.se/" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops" link="https://folketspops.se/" />
                 </div>   
             </div>
         </div>
