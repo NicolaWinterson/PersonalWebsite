@@ -15,9 +15,9 @@ const Portfolio = () => {
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops1" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Tic Tac Toe w/ class based components" link="https://codepen.io/nicolawinterson/pen/oNXVvaV" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops4" link="https://folketspops.se/" />
-                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops5" link="https://folketspops.se/" />
+                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Tic Tac Toe w/ hooks" link="https://codesandbox.io/s/tick-tack-toe-whooks-v1-xmjpj" />
+                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Receipt search API call" link="https://recipesearchappreact.netlify.app/" />
+                    <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Weather app API call" link="https://codesandbox.io/s/weather-api-app-v6-dmgnc/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops6" link="https://folketspops.se/" />
                 </div>   
             </div>
