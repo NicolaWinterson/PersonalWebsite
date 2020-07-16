@@ -2,6 +2,7 @@ import React from 'react';
 import Resume from "./components/Resume"
 import Portfolio from "./components/Portfolio"
 import Home from "./components/Home"
+import Contact from "./components/Contact"
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,6 +19,9 @@ export default function App() {
         </Route>
         <Route path="/portfolio">
           <Portfolio />
+        </Route>
+        <Route path="/contact">
+          <Contact />
         </Route>
         <Route path="/">
           <Home />

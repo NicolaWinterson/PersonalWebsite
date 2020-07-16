@@ -1,5 +1,4 @@
 import React from "react";
-import SentimentSatisfiedAltIcon from '@material-ui/icons/SentimentSatisfiedAlt';
 import MenuIcon from '@material-ui/icons/Menu';
 import {
     Link
@@ -16,12 +15,15 @@ const Home = () => {
         <div className="home__container">
             <nav>
                 <ul className="home_navbar">
-                    <li><SentimentSatisfiedAltIcon />NLW</li>
+                    <li>NLW</li>
                     <li className="home_navbar--push">
                         <Link to="/cv">CV</Link>
                     </li>
                     <li>
                         <Link to="/portfolio">PORTFOLIO</Link>
+                    </li>
+                    <li>
+                    <Link to="/contact">CONTACT</Link>
                     </li>
                 </ul>
                 <ul className="home_navbar--mobile">
@@ -31,6 +33,9 @@ const Home = () => {
                     </li>
                     <li className="home_navbar--mobile-li">
                         <Link to="/portfolio">PORTFOLIO</Link>
+                    </li>
+                    <li className="home_navbar--mobile-li">
+                        <Link to="/contact">CONTACT</Link>
                     </li>
                 </ul>
             </nav>
