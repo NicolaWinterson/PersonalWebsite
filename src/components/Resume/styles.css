@@ -169,6 +169,7 @@ padding: 0px;
 margin: 0px;
 position: relative;
 /* background: fuchsia; */
+padding-left: 2vw;
 }
 
 .resume-item:before {
@@ -179,8 +180,8 @@ height: 2vh;
 border-radius: 50%;
 background: rgb(63, 66, 113);
 position: absolute;
-margin-left: -0.5vw;
-margin-top: 18px;
+margin-left: -3vw;
+margin-top: 2.3vh;
 }
 
 .time-range-block {
@@ -277,6 +278,18 @@ display: inline;
   .contact-info--header {
     font-size: 60px;
     text-align: center;
+  }
+
+  .resume-item {
+    padding: 0px;
+    margin: 0px;
+    border-left: none;
+    background: fuchsia;
+    padding-left: 2vw;
+    }
+
+  .resume-item:before {
+    display: none;
   }
 
 }
