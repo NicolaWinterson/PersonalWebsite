@@ -19,7 +19,7 @@
     color: #4a6156;
 }
 
-.home_navbar {
+.navbar {
     background-color: rgba(219, 196, 173, 0.2);
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
     border-bottom: 1px solid #95aea3;
 }
 
-.home_navbar li {
+.navbar li {
     list-style: none;
     width: 12vw;
     height: 5vh;
@@ -38,25 +38,25 @@
     /* border-bottom: 2px solid #f0e7de; */
 }
 
-.home_navbar--push {
+.navbar--push {
     margin-left: auto;
 }
 
-.home_navbar li:hover {
+.navbar li:hover {
     background-color: rgba(219, 196, 173, 0.5);
 }
 
-.home_navbar li a {
+.navbar li a {
     text-decoration: none;
     color: black;
 }
 
-.home_navbar li a:hover {
+.navbar li a:hover {
     border-bottom: 2px solid #4a6156;
     transition: 0.2s linear;
 }
 
-.home_navbar--mobile {
+.navbar--mobile {
     display: none;
 }
 
@@ -67,11 +67,11 @@
         color: red;
     }
     
-    .home_navbar {
+    .navbar {
         display: none;
     }
 
-    .home_navbar--mobile {
+    .navbar--mobile {
         display: flex;
         justify-content: flex-end;
         padding: 2vh 5vw 3vh 0vw;
