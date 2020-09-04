@@ -13,6 +13,18 @@
     width: 100vw;
 }
 
+
+.home__container--top {
+    height: 10%;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 3vw;
+    background-color: #f0e7de;
+    border-bottom: 1px solid #95aea3;
+}
+
 .home_heading {
     font-size: 60px;
     text-align: center;
@@ -39,7 +51,7 @@
 }
 
 .navbar--push {
-    margin-left: auto;
+    align-self: flex-start;
 }
 
 .navbar li:hover {

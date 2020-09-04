@@ -13,7 +13,7 @@ const Home = () => {
 
     return (
         <div className="home__container">
-            <nav>
+            <nav className="home__container--top">
                 <ul className="navbar">
                     <li>Nicola Winterson</li>
                     <li className="navbar--push">

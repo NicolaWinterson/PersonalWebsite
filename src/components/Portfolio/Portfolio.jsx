@@ -9,20 +9,14 @@ const Portfolio = () => {
         <div className="portfolio__container">
             <nav className="portfolio__container--top">
                 <ul className="navbar">
-                    <li className="navbar--push">
-                        <Link to="/cv">CV</Link>
-                    </li>
-                    <li>
-                        <Link className="navbar--active" to="/portfolio">Portfolio</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact</Link>
-                    </li>
-                    <li><Link className="portfolio__nav" to="/"><ArrowBackIosIcon /></Link>  </li>
+                    <li><Link to="/"><ArrowBackIosIcon /></Link>  </li>
+                    <li><Link to="/cv">CV</Link></li>
+                    <li><Link className="navbar--active" to="/portfolio">Portfolio</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
             <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1></div>
-            <div className="portfolio__container--bottom">bottom
+            <div className="portfolio__container--bottom">
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops1" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />

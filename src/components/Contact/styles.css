@@ -11,7 +11,6 @@
 
 .contact__container--top {
     height: 10%;
-    width: 100vw;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -25,8 +24,9 @@
 }
   
 .contact__container--center {
-    height: 20%;
+    height: 70%;
     background-color: #be8051;
+    overflow: auto;
     padding: 15vw 10vw;
 }
 
@@ -49,7 +49,6 @@
 
 .contact__container--formInput-large {
     align-self: center;
-    text-overflow: ellipsis;
     width: 80%;
     padding: 12px 20px 100px;
     margin: 1vh 0.5vw;
@@ -62,17 +61,20 @@
     width: 10%;
     border-radius: 4px;
     padding: 1vw;
+    margin-right: 10%;
 }
 
 .contact__container--bottom {
-    height: 70%;
+    height: 20%;
     background-color: #768e83;
     padding: 1vw;
 }
 
 @media only screen and (max-width: 800px) {
     .contact__container {
-        background-color: rgb(22, 104, 211);
+        background-color: rgb(93, 148, 110);
+        height: 100vh;
+        width: 100vw;
     }
 
     .contact__container--center {
@@ -82,5 +84,13 @@
 
     .contact__container--bottom {
         color: red;
+    }
+
+    .contact__container--submit {
+        align-self: flex-end;
+        width: 10%;
+        border-radius: 4px;
+        padding: 0;
+        margin-right: 10%;
     }
 }

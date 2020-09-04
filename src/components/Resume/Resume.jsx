@@ -21,21 +21,14 @@ import SocialMediaInfo from "./SocialMediaInfo";
 const Resume = () => {
   return (
     <div className="resume__container">
-      <header className="resume__banner resume__nav">
-        {/* <a className="resume__nav--item" href={CVpdf} target="_blank"><Print /></a> */}
+      <nav className="resume__container--top">
         <ul className="navbar">
-          <li className="navbar--push">
-            <Link className="navbar--active" to="/cv">CV</Link>
-          </li>
-          <li>
-            <Link to="/portfolio">Portfolio</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li><Link className="portfolio__nav" to="/"><ArrowBackIosIcon /></Link>  </li>
+          <li><Link to="/"><ArrowBackIosIcon /></Link>  </li>
+          <li><Link className="navbar--active" to="/cv">CV</Link></li>
+          <li><Link to="/portfolio">Portfolio</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
         </ul>
-      </header>
+      </nav>
       <div className="resume__background">
         <aside className="resume__container--left">
           <section className="resume__contact-info">
