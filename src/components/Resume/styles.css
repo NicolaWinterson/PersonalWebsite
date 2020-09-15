@@ -1,22 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-}
-
-.resume__container {
-  background: rgb(240,231,222);
-  background: linear-gradient(180deg, rgba(240,231,222,1) 0%, rgba(219,196,173,1) 100%);
   font-family: "Open Sans Condensed", sans-serif;
-  height: 100vh;
-  width: 100vw;
-  flex: 1;
 }
 
-.resume__background {
-  background-color: #ffffff;
-  border: 2px solid #22372d;
-  margin: 2vw;
-}
+
 
 .resume__container--top {
   height: 10%;
@@ -96,9 +84,11 @@ margin-top: 0px;
 }
 
 .contact-info--header {
-font-size: 5vmax;
-text-transform: uppercase;
-overflow: hidden;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 5vmax;
+  font-weight: 300;
+  margin-bottom: 3vh;
 }
 
 .contact-info__grid {
@@ -257,8 +247,6 @@ display: inline;
   }
 
   .resume__container {
-    background-color: rgb(255, 255, 255);
-    font-family: "Open Sans Condensed", sans-serif;
     margin: 2vw;
     /* position: absolute; */
     border: 2px solid #22372d;
@@ -298,6 +286,27 @@ display: inline;
 
   .resume-item:before {
     display: none;
+  }
+
+}
+
+@media only screen and (min-width: 801px) {
+  .resume__container {
+    background: rgb(145, 78, 12);
+    /* background: linear-gradient(180deg, rgba(240,231,222,1) 0%, rgba(219,196,173,1) 100%); */
+  }
+
+  .resume__background {
+    background-color: #ffffff;
+    border: 2px solid #22372d;
+    margin: 2vw;
+    display: flex;
+  }
+
+  .resume__profile-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }

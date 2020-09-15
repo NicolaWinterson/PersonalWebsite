@@ -37,7 +37,7 @@ const Resume = () => {
               src="https://pixiepunkpix.files.wordpress.com/2014/05/tumblr_static_black-and-white-camera-cute-photography-favim-com-273178.jpg"
               alt="Fake Profile"
             />
-            <h1 className="contact-info--header">Person Personsson</h1>
+            <h1 className="contact-info--header">Nicola Winterson</h1>
 
             <dl className="contact-info__grid">
               <dt>D.O.B:</dt>
@@ -52,9 +52,9 @@ const Resume = () => {
             </dl>
             <dl className="contact-info__inline">
               <dt>Phone:</dt>
-              <dd>0707070707</dd>
+              <dd>0767819843</dd>
               <dt>Email:</dt>
-              <dd>name.surname@gmail.com</dd>
+              <dd>nicola.l.winterson@gmail.com</dd>
             </dl>
           </section>
           <div>
@@ -65,15 +65,8 @@ const Resume = () => {
         </aside>
         <main className="container__right">
           <ResumeItem title="About Me">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-              pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+            <p>I'm a driven and insightful person who is passionate about developing my skills and working towards my goal of becoming a full stack developer.</p>
+            <p>My specialities include quickly learning new skills and programming languages and problem solving. I have already learnt JavaScript(ES6), HTML, CSS, React, NODE.js, PostgreSQL, JSON and Git/GitHub and am enthusiastically seizing any opportunity to learn and use use other programming languages, frameworks or principals.</p>
           </ResumeItem>
           <ResumeItem title="Experience">
             {experience.map(item => (
