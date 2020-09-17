@@ -9,7 +9,7 @@
 }
 
 .portfolio__container--top {
-  height: 10%;
+  /* height: 10%; */
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

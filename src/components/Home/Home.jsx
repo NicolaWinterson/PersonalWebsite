@@ -15,7 +15,7 @@ const Home = () => {
         <div className="home__container">
             <nav className="home__container--top">
                 <ul className="navbar">
-                    <li>Nicola Winterson</li>
+                    <li>NLW</li>
                     <li className="navbar--push">
                         <Link to="/cv">CV</Link>
                     </li>

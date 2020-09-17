@@ -10,11 +10,10 @@
 }
 
 .contact__container--top {
-    height: 10%;
+    /* height: 10%; */
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    padding-right: 3vw;
     background-color: #f0e7de;
     border-bottom: 1px solid #95aea3;
 }
@@ -24,7 +23,7 @@
 }
   
 .contact__container--center {
-    height: 70%;
+    display: block;
     background-color: #be8051;
     overflow: auto;
     padding: 15vw 10vw;
@@ -65,9 +64,21 @@
 }
 
 .contact__container--bottom {
-    height: 20%;
+    display: block;
+    padding: 5vh 10vw;
     background-color: #768e83;
+}
+
+.contact__container--flexparent {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
     padding: 1vw;
+}
+
+.contact__social-media-links {
+    /* flex-basis: auto; */
+    background-color:#a9b6af;
 }
 
 @media only screen and (max-width: 800px) {

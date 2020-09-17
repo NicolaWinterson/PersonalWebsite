@@ -4,6 +4,8 @@ import {
 } from "react-router-dom";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import AlternateEmail from '@material-ui/icons/AlternateEmail'
+import socialMediaDatas from "./SocialMediaData";
+import SocialMediaIcons from "./SocialMediaIcons"
 import "./styles.css";
 
 const Contact = () => {
@@ -37,7 +39,10 @@ const Contact = () => {
             </div>
             <div className="contact__container--bottom">
                 <h1>Contact</h1>
-                <Link><AlternateEmail /></Link>
+                <h2>Alternativly, find me on the various social channels below:</h2>
+                    {socialMediaDatas.map(item => (
+                        <SocialMediaIcons {...item} />
+                    ))}
             </div>
         </div>
     )

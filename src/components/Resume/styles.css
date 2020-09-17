@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  border-bottom: 1px solid #95aea3;
 }
 
 .navbar li {
@@ -31,6 +32,7 @@
   padding: 2.5vw 2vw 0vw;
   font-size: 2vw;
   background-color: rgba(240, 231, 222, 0.2);
+  /* border-bottom: 2px solid #f0e7de; */
 }
 
 .resume_heading {
