@@ -20,10 +20,16 @@ const socialMediaDatas = [
     },
 
     {
-      link: "https://www.linkedin.com/in/",
-      icon: "iconfinder_Circled_Linkedin.svg",
-      description: "linkedin.com/personpersson"
+      link: "https://codepen.io/nicolawinterson",
+      icon: "iconfinder_Codepen.svg",
+      description: "codepen.io/nicolawinterson"
+    },
+
+    {
+      link: "https://www.instagram.com/nikkithunderthighs/",
+      icon: "iconfinder_Circled_Instagram.svg",
+      description: "instagram.com/nicolawinterson"
     }
   ];
 
-export default socialMediaDatas
+export default socialMediaDatas;

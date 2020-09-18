@@ -40,9 +40,12 @@ const Contact = () => {
             <div className="contact__container--bottom">
                 <h1>Contact</h1>
                 <h2>Alternativly, find me on the various social channels below:</h2>
+                <div className="contact__container--flexparent">
                     {socialMediaDatas.map(item => (
                         <SocialMediaIcons {...item} />
                     ))}
+                </div>
+
             </div>
         </div>
     )

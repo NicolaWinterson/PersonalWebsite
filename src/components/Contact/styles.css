@@ -70,14 +70,18 @@
 }
 
 .contact__container--flexparent {
+    padding: 2vh;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap-reverse;
-    padding: 1vw;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
 }
 
 .contact__social-media-links {
-    /* flex-basis: auto; */
+/*     width: 75px;
+    height: 75px; */
+    margin: 3vw;
+    flex-basis: auto;
     background-color:#a9b6af;
 }
 

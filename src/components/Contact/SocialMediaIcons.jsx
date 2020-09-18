@@ -2,7 +2,7 @@ import React from "react";
 
 const SocialMediaIcons = ({ link, icon, description }) => {
   return (
-    <div className="contact__container--flexparent">
+    <div>
       <div className="contact__social-media-links">
         <a target="_blank" rel="noopener noreferrer" href={link}>
           <img className="social-media-icons" src={icon} alt={description} />
