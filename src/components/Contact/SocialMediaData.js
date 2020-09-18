@@ -1,5 +1,3 @@
-import React from "react"
-
 const socialMediaDatas = [
     {
       link: "https://www.facebook.com/nicola.winterson/",

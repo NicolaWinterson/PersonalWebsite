@@ -3,7 +3,6 @@ import {
     Link
 } from "react-router-dom";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import AlternateEmail from '@material-ui/icons/AlternateEmail'
 import socialMediaDatas from "./SocialMediaData";
 import SocialMediaIcons from "./SocialMediaIcons"
 import "./styles.css";
@@ -33,8 +32,8 @@ const Contact = () => {
                     <label>Enter your email:</label>
                     <input className="contact__container--formInput" type="email" placeholder="dirk@holisticdetectiveagency.gov" />
                     <label>Enter your query:</label>
-                    <input className="contact__container--formInput-large" type="text" placeholder="“Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.”" />
-                    <button className="contact__container--submit" onClick={sayHowdy}>Submit</button>
+                    <textarea className="contact__container--formInput-large" name="text" rows="2" cols="20" placeholder="“Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.”" ></textarea>
+                    <input className="contact__container--submit" type="submit" value="Submit" onClick={sayHowdy} />
                 </form>
             </div>
             <div className="contact__container--bottom">
