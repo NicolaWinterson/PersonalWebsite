@@ -23,7 +23,7 @@
 }
 
 .navbar--active {
-    border-bottom: 2px solid #4a6156;
+    border-bottom: 2px solid rgb(74, 97, 86);
 }
   
 .contact__container--center {
@@ -84,7 +84,6 @@
 .contact__container--bottom {
     display: block;
     padding: 5vh 10vw;
-    background: ;
 }
 
 .contact__container--flexparent {
