@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import MenuIcon from '@material-ui/icons/Menu';
 import {
     Link
@@ -14,6 +14,7 @@ const Home = () => {
     return (
         <div className="home__container">
             <nav className="home__container--top">
+                <MenuIcon className="home_navbar--mobile-icon" onClick={sayHello} />
                 <ul className="navbar">
                     <li>NLW</li>
                     <li className="navbar--push">
@@ -24,18 +25,6 @@ const Home = () => {
                     </li>
                     <li>
                         <Link to="/contact">Contact</Link>
-                    </li>
-                </ul>
-                <ul className="navbar--mobile">
-                    <MenuIcon className="home_navbar--mobile-icon" onClick={sayHello} />
-                    <li className="home_navbar--mobile-li">
-                        <Link to="/cv">CV</Link>
-                    </li>
-                    <li className="home_navbar--mobile-li">
-                        <Link to="/portfolio">PORTFOLIO</Link>
-                    </li>
-                    <li className="home_navbar--mobile-li">
-                        <Link to="/contact">CONTACT</Link>
                     </li>
                 </ul>
             </nav>

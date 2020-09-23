@@ -99,8 +99,16 @@
     height: 75px; */
     margin: 3vw;
     flex-basis: auto;
+    background: transparent;
     /* background-color:#a9b6af; */
 }
+
+@media only screen and (min-width: 801px) {
+    .contact_navbar--mobile-icon {
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 800px) {
     .contact__container {
@@ -137,7 +145,12 @@
         height: 75px;
         margin: 3vw;
         flex-basis: auto;
+        background: transparent;
         /* background-color:#a9b6af; */
+    }
+
+    .contact_navbar--mobile-icon {
+        display: inline-block;
     }
     
 }

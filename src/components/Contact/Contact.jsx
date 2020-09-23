@@ -3,6 +3,7 @@ import {
     Link
 } from "react-router-dom";
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import MenuIcon from '@material-ui/icons/Menu';
 import socialMediaDatas from "./SocialMediaData";
 import SocialMediaIcons from "./SocialMediaIcons"
 import "./styles.css";
@@ -21,6 +22,7 @@ const Contact = () => {
                     <li><Link to="/cv">CV</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                     <li><Link className="navbar--active" to="/contact">Contact</Link></li>
+                    <li className="contact_navbar--mobile-icon"><MenuIcon onClick={sayHowdy} /></li>
                 </ul>
             </nav>
             <div className="contact__container--center">
