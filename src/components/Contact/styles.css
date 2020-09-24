@@ -23,12 +23,12 @@
 }
 
 .navbar--active {
-    border-bottom: 2px solid rgb(74, 97, 86);
+    border-bottom: 2px solid #4a6156;
 }
   
 .contact__container--center {
     display: block;
-    background: linear-gradient(180deg,rgba(240,231,222,1) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);
     padding: 15vw 10vw 0vh 10vw;
 }
 
