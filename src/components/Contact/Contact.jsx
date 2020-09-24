@@ -37,15 +37,18 @@ const Contact = () => {
                     <textarea className="contact__container--formInput-large" name="text" rows="2" cols="20" placeholder="“Let's think the unthinkable, let's do the undoable. Let us prepare to grapple with the ineffable itself, and see if we may not eff it after all.”" ></textarea>
                     <input className="contact__container--submit" type="submit" value="Submit" onClick={sayHowdy} />
                 </form>
+                <div>
+                    <h1>Contact</h1>
+                    <h2>Alternativly, find me on the various social channels below:</h2>
+                    <div className="contact__container--flexparent">
+                        {socialMediaDatas.map(item => (
+                            <SocialMediaIcons {...item} />
+                        ))}
+                    </div>
+                </div>
             </div>
             <div className="contact__container--bottom">
-                <h1>Contact</h1>
-                <h2>Alternativly, find me on the various social channels below:</h2>
-                <div className="contact__container--flexparent">
-                    {socialMediaDatas.map(item => (
-                        <SocialMediaIcons {...item} />
-                    ))}
-                </div>
+
 
             </div>
         </div>

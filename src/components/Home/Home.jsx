@@ -29,7 +29,10 @@ const Home = () => {
                     </li>
                 </ul>
             </nav>
-            <h1 className="home_heading">Hej and welcome</h1>
+            <div className="home__container--center">
+                <h1 className="home_heading">Hej and welcome</h1>
+            </div>
+            <footer className="home__container--bottom"></footer>
         </div>
     )
 }

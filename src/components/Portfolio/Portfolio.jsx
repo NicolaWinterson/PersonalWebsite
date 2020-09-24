@@ -15,8 +15,7 @@ const Portfolio = () => {
                     <li><Link to="/contact">Contact</Link></li>
                 </ul>
             </nav>
-            <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1></div>
-            <div className="portfolio__container--bottom">
+            <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1>
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops1" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />
@@ -26,6 +25,7 @@ const Portfolio = () => {
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops6" link="https://folketspops.se/" />
                 </div>
             </div>
+            <footer className="portfolio__container--bottom" />
         </div>
     )
 }
