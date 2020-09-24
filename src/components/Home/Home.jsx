@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import MenuIcon from '@material-ui/icons/Menu';
 import {
     Link
@@ -7,14 +7,15 @@ import "./styles.css";
 
 const Home = () => {
 
-    const sayHello = () => {
-        alert('Hello!');
-    }
+    /* const [isMenuOpen, setIsMenuOpen] = useState(false); */
 
     return (
         <div className="home__container">
             <nav className="home__container--top">
-                <MenuIcon className="home_navbar--mobile-icon" onClick={sayHello} />
+                {/* <MenuIcon 
+                    className="home_navbar--mobile-icon" 
+                    isMenuOpen={isMenuOpen}
+                    onClick={() => setIsMenuOpen(!isMenuOpen)} /> */}
                 <ul className="navbar">
                     <li>NLW</li>
                     <li className="navbar--push">
