@@ -10,9 +10,6 @@
 
 .portfolio__container--top {
   height: 90px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
   background-color: #f0e7de;
   border-bottom: 1px solid #95aea3;
 }

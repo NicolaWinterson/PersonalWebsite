@@ -1,11 +1,7 @@
 import React from "react";
-import {
-    Link
-} from "react-router-dom";
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import MenuIcon from '@material-ui/icons/Menu';
 import socialMediaDatas from "./SocialMediaData";
-import SocialMediaIcons from "./SocialMediaIcons"
+import SocialMediaIcons from "./SocialMediaIcons";
+import Navbar from "../Navigation/Navbar";
 import "./styles.css";
 
 const Contact = () => {
@@ -16,15 +12,7 @@ const Contact = () => {
 
     return (
         <div className="contact__container">
-            <nav className="contact__container--top">
-                <ul className="navbar">
-                    <li><Link to="/"><ArrowBackIosIcon /></Link>  </li>
-                    <li><Link to="/cv">CV</Link></li>
-                    <li><Link to="/portfolio">Portfolio</Link></li>
-                    <li><Link className="navbar--active" to="/contact">Contact</Link></li>
-                    <li className="contact_navbar--mobile-icon"><MenuIcon onClick={sayHowdy} /></li>
-                </ul>
-            </nav>
+            <Navbar className="contact__container--top"/>
             <div className="contact__container--center">
                 <h1>SAY HELLO</h1>
                 <h2>What do you need help with? Have a project or an idea you'd like to collaborate on? Let’s talk about it.</h2>
@@ -47,10 +35,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-            <div className="contact__container--bottom">
-
-
-            </div>
+            <footer className="contact__container--bottom"></footer>
         </div>
     )
 }

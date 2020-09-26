@@ -1,10 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
-import Print from '@material-ui/icons/Print';
-
-import "./styles.css";
-
+import Navbar from "../Navigation/Navbar"
 import ResumeItem from "./ResumeItem";
 import TimeRangeBlock from "./TimeRangeBlock";
 import SkillBar from "./SkillBar";
@@ -16,19 +11,14 @@ import {
   socialMediaData
 } from "./PersonalData";
 import SocialMediaInfo from "./SocialMediaInfo";
+import "./styles.css";
+
 //import CVpdf from "C:/Users/Nicola/Documents/Website/website-main/src/components/Resume/NicolaWinterson_CV_2020.pdf"
 
 const Resume = () => {
   return (
     <div className="resume__container">
-      <nav className="resume__container--top">
-        <ul className="navbar">
-          <li><Link to="/"><ArrowBackIosIcon /></Link>  </li>
-          <li><Link className="navbar--active" to="/cv">CV</Link></li>
-          <li><Link to="/portfolio">Portfolio</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
-        </ul>
-      </nav>
+      <Navbar className="resume__container--top"/>
       <div className="resume__background">
         <aside className="resume__container--left">
           <section className="resume__contact-info">
@@ -63,7 +53,7 @@ const Resume = () => {
             ))}
           </div>
         </aside>
-        <main className="container__right">
+        <main className="resume__container--right">
           <ResumeItem title="About Me">
             <p>I'm a driven and insightful person who is passionate about developing my skills and working towards my goal of becoming a full stack developer.</p>
             <p>My specialities include quickly learning new skills and programming languages and problem solving. I have already learnt JavaScript(ES6), HTML, CSS, React, NODE.js, PostgreSQL, JSON and Git/GitHub and am enthusiastically seizing any opportunity to learn and use use other programming languages, frameworks or principals.</p>
@@ -96,8 +86,8 @@ const Resume = () => {
             ))}
           </ResumeItem>
         </main>
-        <footer />
       </div>
+      <footer className="resume__container--bottom"/>
     </div>
 
 

@@ -1,20 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "./styles.css";
+import Navbar from "../Navigation/Navbar"
+
 import PortfolioItem from "./PortfolioItem"
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+
+import "./styles.css";
 
 const Portfolio = () => {
     return (
         <div className="portfolio__container">
-            <nav className="portfolio__container--top">
-                <ul className="navbar">
-                    <li><Link to="/"><ArrowBackIosIcon /></Link>  </li>
-                    <li><Link to="/cv">CV</Link></li>
-                    <li><Link className="navbar--active" to="/portfolio">Portfolio</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                </ul>
-            </nav>
+            <Navbar className="portfolio__container--top"/>
             <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1>
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://getuikit.com/v2/docs/images/placeholder_600x400.svg" alt="Folkets Pops1" link="https://folketspops.se/" />
