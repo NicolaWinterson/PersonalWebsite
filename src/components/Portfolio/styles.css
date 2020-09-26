@@ -16,7 +16,7 @@
 
 .portfolio__container--center {
   height: 20%;
-  background-color: #be8051;
+  background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);
   padding: 1vw;
 }
 
@@ -64,6 +64,7 @@
 @media only screen and (max-width: 800px) {
   
   .portfolio__heading {
+    padding-top: 8vh;
     font-size: 5vh;
     text-align: center;
     color: red;
@@ -71,5 +72,12 @@
 
   .flexchild--image {
     filter: grayscale(0);
+    height: 280px;
+    width: 380px;
   }
+
+  .portfolio__container--center {
+    padding: 1vw 5vw;
+  }
+
 }

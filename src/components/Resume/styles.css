@@ -242,10 +242,12 @@ display: inline;
     
   .resume__container--left {
     width: 90vw;
+    margin: 2vw;
   }
     
-  .container__right {
+  .resume__container--right {
     width: 90vw;
+    margin: 2vw;
   }
 
   .resume__profile-image {
