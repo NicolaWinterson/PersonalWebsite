@@ -52,6 +52,7 @@
   filter: grayscale(1);
   height: 300px;
   width: 400px;
+  object-fit: cover;
 }
 
 .flexchild--image:hover {
@@ -72,8 +73,9 @@
 
   .flexchild--image {
     filter: grayscale(0);
-    height: 280px;
-    width: 380px;
+    min-height: 280px;
+    min-width: 380px;
+    object-fit: cover;
   }
 
   .portfolio__container--center {
