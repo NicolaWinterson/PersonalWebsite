@@ -5,8 +5,8 @@ Full code for my personal website, which includes:
 * Resume component
 * Portfolio component
 * Contact component
-- Coded using React, React Router
 
+This implements ReactJS and React Router
 
 This project is published [here](https://nicolawinterson.com).
 
