@@ -1,4 +1,4 @@
-#PersonalWebsite#
+# PersonalWebsite
 
 Full code for my personal website, which includes:
 * Home page component
