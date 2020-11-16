@@ -4,6 +4,7 @@ import ResumeItem from "./ResumeItem";
 import TimeRangeBlock from "./TimeRangeBlock";
 import SkillBar from "./SkillBar";
 import DisplayAchievementsBlock from "./DisplayAchievements";
+import ProgressBar from "./ProgressBar";
 import {
   achievements,
   experience,
@@ -69,15 +70,25 @@ const Resume = () => {
             ))}
           </ResumeItem>
           <ResumeItem title="Skills">
-            <div className="skills">
+            {/* <div className="skills">
               <SkillBar title="HTML5" value={5} />
               <SkillBar title="CSS" value={5} />
-              <SkillBar title="JavaScript" value={3} />
-              <SkillBar title="Twinery" value={2} />
-              <SkillBar title="React" value={3} />
-              <SkillBar title="Java" value={1} />
-              <SkillBar title="Python" value={1} />
+              <SkillBar title="JavaScript" value={4} />
+              <SkillBar title="Twinery" value={1} />
+              <SkillBar title="React" value={4} />
+              <SkillBar title="Node.js" value={2} />
+              <SkillBar title="PostgreSQL" value={2} />
               <SkillBar title="Life" value={5} />
+            </div> */}
+            <div className="skills">
+              <ProgressBar title="HTML" className="progress_bar--value value-100" />
+              <ProgressBar title="CSS" className="progress_bar--value value-90" />
+              <ProgressBar title="JavaScript" className="progress_bar--value value-80" />
+              <ProgressBar title="React" className="progress_bar--value value-80" />
+              <ProgressBar title="Node.js" className="progress_bar--value value-70" />
+              <ProgressBar title="Database" className="progress_bar--value value-50" />
+              <ProgressBar title="GitHub" className="progress_bar--value value-70" />
+              <ProgressBar title="Life" className="progress_bar--value value-100" />
             </div>
           </ResumeItem>
           <ResumeItem title="Achievements">
