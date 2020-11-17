@@ -205,6 +205,8 @@ flex-flow: column wrap;
 .achievements__display {
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
+background-color: orange;
 }
 
 .skill_bar,
@@ -214,20 +216,25 @@ display: inline;
 /* margin-right: 20px; */
 }
 
-.skill_name {
+/* .skill_name {
   background: yellow;
 }
 
 .skill_level {
   float: right;
   margin-right: 20px;
-}
+} */
 
 .progress_bar {
+  display: flex;
+  flex-wrap: wrap;
   flex-basis: 45%;
-  display: inline;
   margin-bottom: 26px;
   margin-right: 20px;
+}
+
+.progress_bar:hover {
+  transform: scale(1.);
 }
 
 .progress_bar--container {
@@ -236,7 +243,7 @@ display: inline;
   height: 26px;
   height: 1.66em;
   background: #e6eae3;
-  background: rgba(8,102,220,.2);
+  background: rgba(118, 142, 131, 0.1);
   overflow: hidden;
   border-radius: 5px;
 }
@@ -244,30 +251,59 @@ display: inline;
 .progress_bar--value {
   height: 1.66em;
   float: left;
-  background: rgb(118,82,142);
-  background: linear-gradient(90deg, rgba(118,82,142,1) 0%, rgba(180,1,1,1) 100%);
-  animation: fillbar 4s linear;
+  background: rgb(74,97,86);
+  background: linear-gradient(90deg, rgba(74,97,86,1) 0%, rgba(34,55,45,1) 100%);
 }
 
-@keyframes fillbar {
-  0% {width: 0px;}
-  10% {width: 10%;}
-  20% {width: 20%;}
-  30% {width: 30%;}
-  40% {width: 40%;}
-  50% {width: 50%;}
-  60% {width: 60%;}
-  70% {width: 70%;}
-  80% {width: 80%;}
-  90% {width: 90%;}
+.progress_bar--value.value-100 {
+  width: 100%;
+  animation: fillbar100 2s ease-in-out;
+}
+
+.progress_bar--value.value-90 {
+  width: 90%;
+  animation: fillbar90 2s ease-in-out;
+}
+
+.progress_bar--value.value-80 {
+  width: 80%;
+  animation: fillbar80 2s ease-in-out;
+}
+
+.progress_bar--value.value-70 {
+  width: 70%;
+  animation: fillbar70 2s ease-in-out;
+}
+
+.progress_bar--value.value-50 {
+  width: 50%;
+  animation: fillbar50 2s ease-in-out;
+}
+
+@keyframes fillbar100 {
+  0% {width: 0;}
   100% {width: 100%;}
 }
 
-.value-100 {width: 100%;}
-.value-90 {width: 90%;}
-.value-80 {width: 80%;}
-.value-70 {width: 70%;}
-.value-50 {width: 50%;}
+@keyframes fillbar90 {
+  0% {width: 0;}
+  100% {width: 90%;}
+}
+
+@keyframes fillbar80 {
+  0% {width: 0;}
+  100% {width: 80%;}
+}
+
+@keyframes fillbar70 {
+  0% {width: 0;}
+  100% {width: 70%;}
+}
+
+@keyframes fillbar50 {
+  0% {width: 0;}
+  100% {width: 50%;}
+}
 
 @media only screen and (max-width: 800px) {
   .resume__background {
@@ -317,6 +353,13 @@ display: inline;
 
   .resume-item:before {
     display: none;
+  }
+
+  .progress_bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 95%;
+    margin-bottom: 26px;
   }
 
 }
