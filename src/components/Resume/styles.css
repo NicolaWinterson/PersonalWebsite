@@ -12,8 +12,6 @@
 
 .resume__container--top {
   background-color: palevioletred;
-  max-height: 400px;
-  flex-basis: 50%;
 }
 
 .resume__container--bottom {
@@ -99,28 +97,6 @@ padding: 0.3vh 0vh;
 margin: 0;
 padding: 0.3vh 0vh;
 }
-
-/* .skill_bar {
-display: flex;
-flex-flow: column wrap;
-}
-
- .skill_level .full,
-.skill_level .not_full {
-display: inline-block;
-height: 1.4vmax;
-width: 1.4vmax;
-margin-right: 2px;
-border: 1px solid black;
-border-radius: 50%;
-}
-
-.skill_level .full {
-background: black;
-}
-
-.skill_level .not_full {
-} */
 
 .resume-item ul {
 list-style-type: none;
@@ -380,9 +356,11 @@ display: inline;
 
   .resume__background {
     background-color: #ffffff;
+    margin: 2.5vw;
     border: 2px solid #22372d;
-    margin: 2vw;
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
   }
 
   .resume__profile-image {
