@@ -4,10 +4,16 @@
   font-family: "Open Sans Condensed", sans-serif;
 }
 
-.resume__container--top {
+.resume__container--navbar {
     height: 90px;
     background-color: #f0e7de;
     border-bottom: 1px solid #95aea3;
+}
+
+.resume__container--top {
+  background-color: palevioletred;
+  max-height: 400px;
+  flex-basis: 50%;
 }
 
 .resume__container--bottom {
@@ -57,13 +63,16 @@ width: 3vmax;
 
 .resume__contact-info,
 .social-media-links {
-font-style: normal;
-font-size: 1.8vmax;
-margin-bottom: 3vh;
+  font-style: normal;
+  font-size: 1.8vmax;
+  margin-bottom: 3vh;
 }
 
-.social-media-links p {
-margin-top: 0px;
+.social-media-links {
+  padding-top: 2vh;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
 }
 
 .contact-info--header {
@@ -91,12 +100,12 @@ margin: 0;
 padding: 0.3vh 0vh;
 }
 
-.skill_bar {
+/* .skill_bar {
 display: flex;
 flex-flow: column wrap;
 }
 
-.skill_level .full,
+ .skill_level .full,
 .skill_level .not_full {
 display: inline-block;
 height: 1.4vmax;
@@ -111,7 +120,7 @@ background: black;
 }
 
 .skill_level .not_full {
-}
+} */
 
 .resume-item ul {
 list-style-type: none;
@@ -145,15 +154,16 @@ margin-bottom: 0;
 
 .resume-item {
 /* border-bottom: 1px solid rgb(255, 255, 255);*/
-border-left: solid 2px #22372d;
+/* border-left: solid 2px #22372d; */
 padding: 0px;
 margin: 0px;
 position: relative;
 /* background: fuchsia; */
-padding-left: 2vw;
+padding-left: 4vw;
+padding-bottom: 2vh;
 }
 
-.resume-item:before {
+/* .resume-item:before {
 content: "";
 display: block;
 width: 2vh;
@@ -163,7 +173,7 @@ background: rgb(63, 66, 113);
 position: absolute;
 margin-left: -3vw;
 margin-top: 2.3vh;
-}
+} */
 
 .time-range-block {
 display: flex;
@@ -206,7 +216,7 @@ flex-flow: column wrap;
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
-background-color: orange;
+/* background-color: orange; */
 }
 
 .skill_bar,
@@ -234,18 +244,16 @@ display: inline;
 }
 
 .progress_bar:hover {
-  transform: scale(1.);
+  transform: scale(1.1);
 }
 
 .progress_bar--container {
   width: 100%;
-  max-width: 700px;
-  height: 26px;
-  height: 1.66em;
+  height: 25px;
   background: #e6eae3;
   background: rgba(118, 142, 131, 0.1);
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 
 .progress_bar--value {

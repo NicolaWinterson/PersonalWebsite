@@ -2,11 +2,9 @@ import React from "react";
 import Navbar from "../Navigation/Navbar"
 import ResumeItem from "./ResumeItem";
 import TimeRangeBlock from "./TimeRangeBlock";
-import SkillBar from "./SkillBar";
 import DisplayAchievementsBlock from "./DisplayAchievements";
 import ProgressBar from "./ProgressBar";
 import {
-  achievements,
   experience,
   education,
   socialMediaData
@@ -19,17 +17,18 @@ import "./styles.css";
 const Resume = () => {
   return (
     <div className="resume__container">
-      <Navbar className="resume__container--top"/>
+      <Navbar className="resume__container--navbar"/>
       <div className="resume__background">
-        <aside className="resume__container--left">
-          <section className="resume__contact-info">
+        <div className="resume__container--top">
             <img
               className="resume__profile-image"
               src="https://pixiepunkpix.files.wordpress.com/2014/05/tumblr_static_black-and-white-camera-cute-photography-favim-com-273178.jpg"
               alt="Fake Profile"
             />
             <h1 className="contact-info--header">Nicola Winterson</h1>
-
+        </div>
+        <aside className="resume__container--left">
+          <section className="resume__contact-info">
             <dl className="contact-info__grid">
               <dt>D.O.B:</dt>
               <dd>1st January 1900</dd>
@@ -48,7 +47,7 @@ const Resume = () => {
               <dd>nicola.l.winterson@gmail.com</dd>
             </dl>
           </section>
-          <div>
+          <div className="social-media-links">
             {socialMediaData.map(item => (
               <SocialMediaInfo {...item} />
             ))}
@@ -70,16 +69,6 @@ const Resume = () => {
             ))}
           </ResumeItem>
           <ResumeItem title="Skills">
-            {/* <div className="skills">
-              <SkillBar title="HTML5" value={5} />
-              <SkillBar title="CSS" value={5} />
-              <SkillBar title="JavaScript" value={4} />
-              <SkillBar title="Twinery" value={1} />
-              <SkillBar title="React" value={4} />
-              <SkillBar title="Node.js" value={2} />
-              <SkillBar title="PostgreSQL" value={2} />
-              <SkillBar title="Life" value={5} />
-            </div> */}
             <div className="skills">
               <ProgressBar title="HTML" className="progress_bar--value value-100" />
               <ProgressBar title="CSS" className="progress_bar--value value-90" />
@@ -90,11 +79,6 @@ const Resume = () => {
               <ProgressBar title="GitHub" className="progress_bar--value value-70" />
               <ProgressBar title="Life" className="progress_bar--value value-100" />
             </div>
-          </ResumeItem>
-          <ResumeItem title="Achievements">
-            {achievements.map(item => (
-              <DisplayAchievementsBlock {...item} />
-            ))}
           </ResumeItem>
         </main>
       </div>
