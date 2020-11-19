@@ -8,7 +8,6 @@ const experience = [
     children: (
       <>
         <p>Freelance web developer</p>
-        <p>Working for specific clients</p>
       </>
     )
   },
@@ -19,7 +18,6 @@ const experience = [
     children: (
       <>
         <p>After School Care Pedagogue and SEN Student Assistant</p>
-        <p>second line</p>
       </>
     )
   },
@@ -30,7 +28,6 @@ const experience = [
     children: (
       <>
         <p>HR and Recruitment Administrator</p>
-        <p>second line</p>
       </>
     )
   },
@@ -41,7 +38,6 @@ const experience = [
     children: (
       <>
         <p>Resourcer</p>
-        <p>second line</p>
       </>
     )
   }
@@ -123,4 +119,21 @@ const socialMediaData = [
   }
 ];
 
-export { experience, education, socialMediaData };
+const contactData = [
+  {
+    icon: "phone-black-18dp.svg",
+    description: "0767819843"
+  },
+
+  {
+    icon: "home-black-18dp.svg",
+    description: "Malmö, Sweden"
+  },
+
+  {
+    icon: "email-black-18dp.svg",
+    description: "nicola.l.winterson@gmail.com"
+  }
+];
+
+export { experience, education, socialMediaData, contactData };

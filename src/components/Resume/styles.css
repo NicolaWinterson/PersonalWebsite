@@ -10,29 +10,14 @@
     border-bottom: 1px solid #95aea3;
 }
 
-.resume__container--top {
-  background-color: palevioletred;
+.resume_heading {
+  font-size: 60px;
 }
 
 .resume__container--bottom {
   height: 80px;
   background-color: #95aea3;
   display: block;
-}
-
-.resume_heading {
-  font-size: 60px;
-}
-
-.resume__container--left {
-padding: 5vw 0vw 0vw 5vw;
-/* width: 30vw; */
-}
-
-.resume__container--right {
-width: 60vw;
-position: relative;
-padding-right: 5vw;
 }
 
 .resume__profile-image {
@@ -49,14 +34,23 @@ color: rgb(0, 0, 0);
 }
 
 .container a:hover {
-text-decoration: underline;
-color: rgba(0, 0, 0, 0.8);
-cursor: pointer;
+  text-decoration: underline;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 .social-media-icons {
-height: 3vmax;
-width: 3vmax;
+  height: 3vmax;
+  width: 3vmax;
+}
+
+.contact-info {
+  margin: 1.5vh 0vw;
+}
+
+.contact-info__icons {
+  height: 2vmax;
+  width: 2vmax;
 }
 
 .resume__contact-info,
@@ -81,33 +75,13 @@ width: 3vmax;
   margin-bottom: 3vh;
 }
 
-.contact-info__grid {
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-gap: 2vw;
-text-align: justify;
-}
-
-.contact-info__grid dd {
-margin: 0;
-padding: 0.3vh 0vh;
-}
-
-.contact-info__inline dd {
-margin: 0;
-padding: 0.3vh 0vh;
-}
-
-.resume-item ul {
-list-style-type: none;
-}
-
 .resume-item__title {
 text-transform: uppercase;
 font-family: "Open Sans Condensed", sans-serif;
 font-size: 4vmax;
 font-weight: 150;
 margin-bottom: 0;
+color: rgba(34,55,45,1);
 /* background: lime; */
 }
 
@@ -126,17 +100,6 @@ margin: 0px;
 font-size: 1.8vmax;
 font-weight: bold;
 margin-bottom: 0;
-}
-
-.resume-item {
-/* border-bottom: 1px solid rgb(255, 255, 255);*/
-/* border-left: solid 2px #22372d; */
-padding: 0px;
-margin: 0px;
-position: relative;
-/* background: fuchsia; */
-padding-left: 4vw;
-padding-bottom: 2vh;
 }
 
 /* .resume-item:before {
@@ -182,41 +145,13 @@ color: black;
 font-weight: bold;
 }
 
-.display-skills-block {
-display: flex;
-flex-flow: column wrap;
-}
-
-.skills,
-.achievements__display {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-/* background-color: orange; */
-}
-
-.skill_bar,
-.achievements__display--flex {
-flex-basis: 45%;
-display: inline;
-/* margin-right: 20px; */
-}
-
-/* .skill_name {
-  background: yellow;
-}
-
-.skill_level {
-  float: right;
-  margin-right: 20px;
-} */
-
 .progress_bar {
   display: flex;
   flex-wrap: wrap;
-  flex-basis: 45%;
-  margin-bottom: 26px;
-  margin-right: 20px;
+  flex-basis: 80%;
+  margin-bottom: 1.5vh;
+  padding-right: 0.5vw;
+ /*  margin-right: 20px; */
 }
 
 .progress_bar:hover {
@@ -225,7 +160,7 @@ display: inline;
 
 .progress_bar--container {
   width: 100%;
-  height: 25px;
+  height: 20px;
   background: #e6eae3;
   background: rgba(118, 142, 131, 0.1);
   overflow: hidden;
@@ -333,7 +268,7 @@ display: inline;
     border-left: none;
     background: fuchsia;
     padding-left: 2vw;
-    }
+  }
 
   .resume-item:before {
     display: none;
@@ -356,17 +291,38 @@ display: inline;
 
   .resume__background {
     background-color: #ffffff;
-    margin: 2.5vw;
+    margin: 2vw;
     border: 2px solid #22372d;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
+  }
+
+  .resume__container--left {
+    padding: 5vw 0vw 0vw 5vw;
+    margin-right: 1vw;
+  }
+  
+  .resume__container--right {
+    width: 60%;
+    flex-basis: auto;
+    padding-right: 5vw;
   }
 
   .resume__profile-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .resume-item {
+    /* border-bottom: 1px solid rgb(255, 255, 255);*/
+    /* border-left: solid 2px #22372d; */
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    padding-top: 5vh;
+    background-color: peachpuff;
   }
 
 }
