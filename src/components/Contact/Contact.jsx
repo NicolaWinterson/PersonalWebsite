@@ -14,7 +14,7 @@ const Contact = () => {
         <div className="contact__container">
             <Navbar className="contact__container--top"/>
             <div className="contact__container--center">
-                <h1>SAY HELLO</h1>
+                <h1>SAY HOWDY</h1>
                 <h2>What do you need help with? Have a project or an idea you'd like to collaborate on? Let’s talk about it.</h2>
                 <form className="contact__container--form">
                     <label>Enter your name:</label>
