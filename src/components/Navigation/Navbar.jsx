@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import MobileNavbar from "./MobileNavbar"
 import BurgerIcon from "./BurgerIcon"
 import MenuIcon from '@material-ui/icons/Menu';
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import {
     Link
 } from "react-router-dom";
@@ -17,7 +16,7 @@ const Navbar = (props) => {
             <BurgerIcon open={open} onClick={() => setOpen(!open)}/>
              {open ? <MobileNavbar /> : null}
             <ul className="navbar">
-                <li><Link to="/"><ArrowBackIosIcon /></Link></li>
+                <li><Link to="/">Home</Link></li>
                 <li><Link to="/cv">CV</Link></li>
                 <li><Link to="/portfolio">Portfolio</Link></li>
                 <li><Link to="/contact">Contact</Link></li>

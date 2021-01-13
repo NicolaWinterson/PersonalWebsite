@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import {
     Link
 } from "react-router-dom";
@@ -11,7 +10,7 @@ const MobileNavbar = () => {
             <li><Link to="/cv">CV</Link></li>
             <li><Link to="/portfolio">Portfolio</Link></li>
             <li><Link to="/contact">Contact</Link></li>
-            <li><Link to="/"><ArrowBackIosIcon /></Link></li>
+            <li><Link to="/">Home</Link></li>
         </ul>
     )
 }
