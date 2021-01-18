@@ -25,7 +25,8 @@
   
 .contact__container--center {
     display: block;
-    background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);
+    background: #ffffff;
+    /*background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);*/
     padding: 15vw 10vw 0vh 10vw;
 }
 

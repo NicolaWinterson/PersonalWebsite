@@ -16,70 +16,91 @@
 
 .portfolio__container--center {
   height: 20%;
-  background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);
+  background: #ffffff;
+  /*background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);*/
   padding: 1vw;
-}
-
-.portfolio__heading {
-  font-size: 7vh;
-  text-align: center;
-  color: blue;
-}
-
-.portfolio__container--bottom {
-  height: 80px;
-  background-color: #768e83;
-  padding: 1vw;
-}
-
-.flexparent {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 1vw;
-}
-
-.flexchild {
-  list-style-type: none;
-  flex-basis: auto;
-  background-color:#22372d;
- }
-
-.flexchild--image {
-  margin: 2vw;
-  filter: grayscale(1);
-  height: 300px;
-  width: 400px;
-  object-fit: cover;
-}
-
-.flexchild--image:hover {
-  filter: grayscale(0);
-  transform: scale(1.05);
-  transition: 1s;
-  transition-timing-function: linear;
 }
 
 @media only screen and (max-width: 800px) {
-  
   .portfolio__heading {
-    padding-top: 8vh;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
     font-size: 5vh;
     text-align: center;
     color: red;
   }
 
+  .portfolio__container {
+    background-color: #ffffff;
+    flex: 1;
+  }
+
+  .portfolio__container--center {
+    background: #b99bb9;
+    padding-top: 55vh;
+    /*background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);*/
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+  }
+
   .flexchild--image {
     filter: grayscale(0);
-    min-height: 280px;
-    min-width: 380px;
-    object-fit: cover;
+    padding: 2vh 0vw 2vh 5vw;
+    height: 40vh;
+    width: 80vw;
+    align-items: center;
   }
 
   .portfolio__container--center {
     padding: 1vw 5vw;
+  }
+
+}
+
+@media only screen and (min-width: 801px) {
+
+  
+  .portfolio__heading {
+    font-size: 7vh;
+    text-align: center;
+    color: blue;
+  }
+  
+  .portfolio__container--bottom {
+    height: 80px;
+    background-color: #768e83;
+    padding: 1vw;
+  }
+  
+  .flexparent {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1vw;
+  }
+  
+  .flexchild {
+    list-style-type: none;
+    flex-basis: auto;
+    background-color:#22372d;
+   }
+  
+  .flexchild--image {
+    margin: 2vw;
+    filter: grayscale(1);
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+  }
+  
+  .flexchild--image:hover {
+    filter: grayscale(0);
+    transform: scale(1.05);
+    transition: 1s;
+    transition-timing-function: linear;
   }
 
 }

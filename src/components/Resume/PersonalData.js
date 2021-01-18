@@ -3,7 +3,7 @@ import React from "react";
 const experience = [
   {
     startDate: new Date("2020-01-01"),
-    endDate: new Date("2020-11-11"),
+    endDate: new Date("2021-02-11"),
     title: "Freelance, Malmö",
     children: (
       <>
@@ -61,7 +61,7 @@ const education = [
     title: "Lund University",
     children: (
       <>
-        <p>Master of Science (MSc) Social Studies of Gender</p>
+        <p>MSc Social Studies of Gender</p>
       </>
     )
   },

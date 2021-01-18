@@ -286,7 +286,8 @@ font-weight: bold;
 @media only screen and (min-width: 801px) {
   .resume__container {
     display: block;
-    background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);
+    background: #ffffff;
+    /*background: linear-gradient(180deg,#f0e7de 0%, rgb(255, 255, 255) 100%);*/
   }
 
   .resume__background {
