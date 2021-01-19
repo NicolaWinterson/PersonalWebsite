@@ -9,7 +9,7 @@ const Portfolio = () => {
     return (
         <div className="portfolio__container">
             <Navbar className="portfolio__container--top"/>
-            <div className="portfolio__container--center"><h1 className="portfolio__heading">I'm the portfolio component!</h1>
+            <div className="portfolio__container--center"><h1 className="portfolio__heading">See below for a list of projects I have completed</h1>
                 <div className="flexparent">
                     <PortfolioItem imgsrc="https://image.freepik.com/free-vector/purple-coming-soon-neon-icon-vector_53876-77843.jpg" alt="Folkets Pops1" link="https://folketspops.se/" />
                     <PortfolioItem imgsrc="https://image.freepik.com/free-vector/purple-coming-soon-neon-icon-vector_53876-77843.jpg" alt="To do list" link="https://codepen.io/nicolawinterson/pen/xxbZqEq" />
