@@ -1,10 +1,5 @@
 const socialMediaDatas = [
-    {
-      link: "https://www.facebook.com/nicola.winterson/",
-      icon: "iconfinder_Circled_Facebook.svg",
-      description: "facebook.com/nicolawinterson"
-    },
-  
+ 
     {
       link: "https://github.com/NicolaWinterson/",
       icon: "iconfinder_Circled_Github.svg",

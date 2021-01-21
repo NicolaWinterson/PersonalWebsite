@@ -13,7 +13,7 @@ const experience = [
   },
   {
     startDate: new Date("2016-06-06"),
-    endDate: new Date("2020-11-11"),
+    endDate: new Date("2021-11-11"),
     title: "Malmö International School, Malmö",
     children: (
       <>
@@ -47,7 +47,7 @@ const education = [
   {
     startDate: new Date("2019-11-06"),
     endDate: new Date("2020-11-06"),
-    title: "FooCoding, Malmö",
+    title: "FooCoding Malmö",
     children: (
       <>
         <p>Full stack web developement course</p>
