@@ -2,13 +2,13 @@ const socialMediaDatas = [
  
     {
       link: "https://github.com/NicolaWinterson/",
-      icon: "iconfinder_Circled_Github.svg",
+      icon: "iconfinder_github.svg",
       description: "github.com/nicolawinterson"
     },
   
     {
       link: "https://www.linkedin.com/in/nicolawinterson/",
-      icon: "iconfinder_Circled_Linkedin.svg",
+      icon: "iconfinder_LinkedIn.svg",
       description: "linkedin.com/nicolawinterson"
     },
 
@@ -20,7 +20,7 @@ const socialMediaDatas = [
 
     {
       link: "https://www.instagram.com/nikkithunderthighs/",
-      icon: "iconfinder_Circled_Instagram.svg",
+      icon: "iconfinder_Instagram.svg",
       description: "instagram.com/nicolawinterson"
     }
   ];

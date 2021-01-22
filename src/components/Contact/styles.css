@@ -101,6 +101,15 @@
     display: block;
 }
 
+.social-media-icons {
+    min-width: 40px;
+    min-height: 40px;
+    max-width: 75px;
+    max-height: 75px;
+    margin: 1.5vw;
+    filter: invert(100%);
+}
+
 @media only screen and (max-width: 800px) {
     .contact__container {
         margin-top: 15vh;
@@ -122,16 +131,16 @@
         background-color: #4a6156;
         display: flex;
         flex-flow: row wrap;
-        align-items: center;
     }
 
     .contact__container--flexparent {
-        flex-flow: column;
+        display: flex;
+        flex-direction: column;
     }
 
     .contact__container--form {
-        width: 90%;
         margin: auto;
+        width: 95%;
     }
 
     .social-media-icons {
@@ -140,8 +149,7 @@
         max-width: 75px;
         max-height: 75px;
         margin: 1.5vw;
-        color: white;
-        background-color:#cf1d4a;
+        filter: invert(100%);
     }
 
     .contact__container--centerText {
