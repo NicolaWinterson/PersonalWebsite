@@ -101,20 +101,26 @@ const education = [
 
 const socialMediaData = [
   {
-    link: "https://www.facebook.com/nicola.winterson/git",
-    icon: "iconfinder_Circled_Facebook.svg",
-    description: "facebook.com/NicolaWinterson"
+    link: "https://www.instagram.com/nikkithunderthighs/",
+    icon: "iconfinder_Instagram.svg",
+    description: "instagram.com/nikkithunderthighs/"
+  },
+
+  {
+    link: "https://codepen.io/nicolawinterson",
+    icon: "iconfinder_Codepen.svg",
+    description: "codepen.io/NicolaWinterson"
   },
 
   {
     link: "https://github.com/NicolaWinterson/",
-    icon: "iconfinder_Circled_Github.svg",
+    icon: "iconfinder_github.svg",
     description: "github.com/NicolaWintersonlinked"
   },
 
   {
     link: "https://www.linkedin.com/in/nicolawinterson/",
-    icon: "iconfinder_Circled_Linkedin.svg",
+    icon: "iconfinder_Linkedin.svg",
     description: "linkedin.com/NicolaWinterson"
   }
 ];

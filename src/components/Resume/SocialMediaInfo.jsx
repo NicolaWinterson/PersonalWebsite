@@ -4,7 +4,7 @@ const SocialMediaInfo = ({ link, icon, description }) => {
   return (
     <div>
       <a target="_blank" rel="noopener noreferrer" href={link}>
-        <img className="social-media-icons" src={icon} alt={description} />
+        <img className="resume__social-media-icons" src={icon} alt={description} />
       </a>
       {/* <p>
         <a href={link} rel="noopener noreferrer">
