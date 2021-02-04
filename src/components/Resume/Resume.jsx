@@ -41,26 +41,6 @@ const Resume = () => {
           </ResumeItem>
 
           <ResumeItem title="Contact">
-            {/* <section className="resume__contact-info">
-              <dl className="contact-info__grid">
-                <dt>D.O.B:</dt>
-                <dd>1st January 1900</dd>
-                <dt>Address:</dt>
-                <dd>
-                  <span>123 Street Name,</span>
-                  <p>Malmö,</p>
-                  <p>Skåne, Sweden,</p>
-                  <p>PostCode</p>
-                </dd>
-              </dl>
-              <dl className="contact-info__inline">
-              <img src="C:/Users/Nicola/Documents/Website/website-main/public/phone-black-18dp.svg" />
-                <dt>Phone:</dt>
-                <dd>0767819843</dd>
-                <dt>Email:</dt>
-                <dd>nicola.l.winterson@gmail.com</dd>
-              </dl>
-            </section> */}
 
             <div className="contact-info">
               {contactData.map(item => (

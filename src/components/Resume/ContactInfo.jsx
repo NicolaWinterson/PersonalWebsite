@@ -4,7 +4,7 @@ const ContactInfo = ({ icon, description }) => {
   return (
     <div>
         <img className="contact-info__icons" src={icon} alt={description} />
-        <span>{description}</span>
+        <span className="contact-info__span">{description}</span>
     </div>
   );
 };
