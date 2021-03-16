@@ -27,7 +27,7 @@
     padding-bottom: 8vh;
     font-size: 5vh;
     text-align: center;
-    color: red;
+    color: rgb(0, 0, 0);
   }
 
   .portfolio__container {
@@ -67,17 +67,18 @@
 }
 
 @media only screen and (min-width: 801px) {
-
   
   .portfolio__heading {
+    padding-top: 10vh;
+    padding-bottom: 8vh;
     font-size: 7vh;
     text-align: center;
-    color: blue;
+    color: #95b3a5;
   }
   
   .portfolio__container--bottom {
     height: 80px;
-    background-color: #768e83;
+    background-color: #95b3a5;
     padding: 1vw;
   }
   

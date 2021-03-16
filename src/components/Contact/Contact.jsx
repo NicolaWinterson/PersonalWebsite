@@ -19,7 +19,7 @@ const Contact = () => {
                     <h2>What do you need help with? Have a project or an idea you'd like to collaborate on? Let’s talk about it.</h2>
                 </div>
                 <div className="contact__container--background">
-                    <div className="contact__container--flexparent">
+                    <div className="contact__container--socialmedia">
                         {socialMediaDatas.map(item => (
                             <SocialMediaIcons {...item} />
                         ))}

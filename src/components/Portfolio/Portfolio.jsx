@@ -10,7 +10,7 @@ const Portfolio = () => {
         <div className="portfolio__container">
             <Navbar className="portfolio__container--top"/>
             <div className="portfolio__container--center">
-                <h1 className="portfolio__heading">Responsive design, HTML, CSS, React, Javascript:</h1>
+                <h1 className="portfolio__heading">Responsive design written in HTML, CSS, React, Javascript:</h1>
                 <div className="flexparent">
                     <PortfolioItem imgsrc="../Screenshot_Calculator_App.png" alt="Calculator App" link="https://eager-jennings-bd5ba1.netlify.app/" />
                     <PortfolioItem imgsrc="../Screenshot_2020-10-21-React-Weather-App.png" alt="Weather app API call" link="https://dmgnc.csb.app/" />

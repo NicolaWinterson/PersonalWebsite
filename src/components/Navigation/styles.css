@@ -91,8 +91,8 @@
         list-style: none;
         text-align: center;
         text-transform: uppercase;
-        font-size: 25px;
-        padding: 15px 60px;
+        font-size: 3vh;
+        padding: 15px 3vw;
         background-color: rgba(240, 231, 222, 0.2);
     }
     

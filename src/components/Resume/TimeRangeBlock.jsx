@@ -17,7 +17,7 @@ const TimeRangeBlock = ({ title, children, startDate, endDate }) => {
       </div>
       <div className="time-range-block__col2">
         <h3 className="time-range-block__title">{title}</h3>
-        <div className="time-range-block__content">{children}</div>
+        <span className="time-range-block__content">{children}</span>
       </div>
     </div>
   );
