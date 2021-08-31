@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .home__container {
@@ -21,13 +22,9 @@
 }
 
 .home__container--center {
-    min-height: 76.5vh; 
+    min-height: 87.9vh; 
     height: 100%;
-    vertical-align:bottom;
-    /*background-image: url("https://www.pixelstalk.net/wp-content/uploads/images4/Cool-4k-Desktop-Wallpaper.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;*/
+    vertical-align: bottom;
 }
 
 .home__container--bottom {
